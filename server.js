@@ -1,9 +1,9 @@
 const express = require('express');
 const app = express();
+const lesson1Controller = require('./controllers/lesson1.js')
 
-app.get('/', (req,res) => {
-  res.send("Hello, Nana Kwame Dickson");
-});
+app.get('/', lesson1Controller.emilyRoute);
+app.get('/hannah', lesson1Controller.hannahRoute);
 
 const port = 3000;
 
