@@ -1,0 +1,14 @@
+{
+  "name": "cse-341-23",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "git-update": "git add .&& commit -m \"update commit\" && git push"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
