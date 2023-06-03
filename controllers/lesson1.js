@@ -12,7 +12,7 @@ const hannahRoute = (req,res) => {
 
 
 
-//This module exports the two objects, hannah and emilyroute to server.js
+//This module exports the three objects,jasmine  hannah and emily route to server.js
   module.exports = {
     jasmineRoute,
     hannahRoute,
