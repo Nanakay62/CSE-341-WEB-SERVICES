@@ -1,5 +1,5 @@
 const jasmineRoute = (req,res) => {
-  res.send("Jasmine Birch");
+  res.send("Jasmine Apaloo");
 };
 
 const emilyRoute = (req,res) => {
@@ -12,9 +12,9 @@ const hannahRoute = (req,res) => {
 
 
 
-//This module exports the three objects,jasmine  hannah and emily route to server.js
+//This module exports the two objects, hannah and emilyroute to server.js
   module.exports = {
-    jasmineRoute,
     hannahRoute,
-    emilyRoute
+    emilyRoute,
+    jasmineRoute
   };
