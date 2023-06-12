@@ -1,0 +1,23 @@
+{
+    "contact": {
+      "firstName": "Jasmine",
+      "lastName": "Apaloo",
+      "email": "amazingwoman@test.com",
+      "favoriteColor": "Red",
+      "birthday": "12/12/20"
+    },
+    "contact2": {
+      "firstName": "Emmanuel",
+      "lastName": "Yentumi",
+      "email": "eyentumi@gmail.com",
+      "favoriteColor": "White",
+      "birthday": "07/12/10"
+    },
+    "contact3": {
+      "firstName": "David",
+      "lastName": "Anderson",
+      "email": "kwamena@gmail.com",
+      "favoriteColor": "Red",
+      "birthday": "02/11/1996"
+    }
+  }
