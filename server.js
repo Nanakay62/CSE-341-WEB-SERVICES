@@ -26,6 +26,6 @@ initDb((err) => {
 
 app.use('/', routes);
 
-app.listen(process.env.PORT || port, () => {
-  console.log('Web Server is listening at port ' + (process.env.PORT || port));
+app.listen(MONGODB_URI || port, () => {
+  console.log('Web Server is listening at port ' + (MONGODB_URI || port));
 });
