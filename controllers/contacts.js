@@ -57,7 +57,7 @@ const createContact = async (req, res) => {
       .collection("contacts")
       .insertOne(contact);
 
-    if (response.result.ok === 1) {
+    if (response.result.acknowledged === 1) {
       res.status(201).json(response.ops[0]);
     } else {
       res.status(500).json("Error encountered: Contact not created");
