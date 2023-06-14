@@ -2,6 +2,7 @@ const express = require('express');
 const dotenv = require('dotenv');
 const { initDb } = require('./db/connect');
 const routes = require('./routes/index');
+const bodyParser = require('body-parser');
 
 dotenv.config();
 
@@ -9,6 +10,7 @@ const app = express();
 const port = 3000;
 
 app.use(express.json());
+app.use(bodyParser.json());
 
 // MongoDB connection
 const MONGODB_URI = process.env.MONGODB_URI;
