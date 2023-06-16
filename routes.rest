@@ -14,7 +14,7 @@ POST  http://localhost:3000/contacts/ HTTP/1.1
 Content-Type: application/json
 
 {
-  "firstName": "Francis",
+  "firstName": "Tracy",
   "lastName": "Osei",
   "email": "francisdickson@gmail.com",
   "favoriteColor": "Red",
@@ -27,15 +27,15 @@ Content-Type: application/json
 
 {
   "firstName": "Jasmine",
-  "lastName": "Apaloo",
+  "lastName": "Jude Mensah",
   "email": "jeapaloog@gmail.com",
-  "favoriteColor": "Red",
+  "favoriteColor": "Violet",
   "birthday": "11/10/1998"
 }
 
 
 ###
-DELETE http://localhost:3000/contacts/648a5943a44be9320f759aeb
+DELETE http://localhost:3000/contacts/648a5fa0a44be9320f759aee
 
 #### DEPLOYMENT 
 ###Retrieve all contacts from the database
@@ -72,3 +72,7 @@ content-type: application/json
 
 ### 
 DELETE https://cse-341-spring-23.onrender.com/contacts/6487371a2a748861736b72bc HTTP/1.1
+
+
+###
+http://localhost:3000/api-docs/

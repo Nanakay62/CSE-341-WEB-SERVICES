@@ -1,11 +1,11 @@
 const express = require('express');
-const routes = express.Router();
+const router = express.Router();
+const swaggerRoutes = require('./swagger');
 
-routes.use('/contacts', require('./contacts.js'));
+router.use('/contacts', require('./contacts'));
+router.use('/', swaggerRoutes);
 
-module.exports = routes;
-
-
+module.exports = router;
 
 
 //const lesson1Controller = require('../controllers/lesson1.js');

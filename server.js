@@ -3,10 +3,12 @@ const dotenv = require('dotenv');
 const { initDb } = require('./db/connect');
 const routes = require('./routes/index');
 const bodyParser = require('body-parser');
+const cors = require('cors');
 
 dotenv.config();
 
 const app = express();
+app.use(cors());
 const port = 3000;
 
 app.use(express.json());
